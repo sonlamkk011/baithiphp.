@@ -1,0 +1,14 @@
+B1. Cấu hình CSDL
+- Tạo CSDL -> t2009m_php
+- Tạo bảng thu vien
+create table student (
+	id int primary key auto_increment,
+	bookid int(11),
+	authorid int(11),
+	title varchar(55) utf8_general_ci,
+	isbn varchar(25) utf8_general_ci,
+	pub_year smallint(6),
+	available tinyint(4)
+)
+
+B2. Tạo dự án PHP
